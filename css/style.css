@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#header,#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+body {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    background-color: darkslateblue;
+}
+
+form input{
+    border: none;
+    background: white;
+    padding: 0.5rem;
+    font-size: 1em;
+    width: 20em;
+
+}
+form button{
+    border: none;
+    padding: 0.5rem;
+    font-size: 1em;
+    color : white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: saddlebrown;
+
+}
+
+.checked{
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
+form button:hover{
+    background: brown;
+    color:white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    list-style: none;
+    min-width: 30%;
+}
+
+.todo{
+    margin: 0.5rem;
+    background: white;
+    font-size: 1rem;
+    color : black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5rem;
+
+    transition: all 0.5s ease;
+
+}
+
+.todo li{
+    flex : 1;
+}
+
+.comp-btn,.del-btn,.edit-btn{
+
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+}
+.del-btn{
+    background:darkgrey;
+    color: black;
+}
+.comp-btn{
+    background: green;
+
+}
+.comp-btn:hover{
+    background: darkgreen;
+
+}
+.del-btn:hover{
+    background: black;
+    color: white;
+
+}
+.edit-btn{
+    background: orange;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity : 0;
+}
+
+
+
+
+
+
